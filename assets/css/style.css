@@ -3048,7 +3048,7 @@ p {
   from {
     -webkit-transform: scale(0.3) rotate(0deg);
     transform: scale(0.3) rotate(0deg);
-    opacity: 0;
+    opacity: 0.5;
   }
   25% {
     -webkit-transform: scale(1) rotate(360deg);
@@ -3058,12 +3058,12 @@ p {
   50% {
     -webkit-transform: scale(0.3) rotate(720deg);
     transform: scale(0.3) rotate(720deg);
-    opacity: 0;
+    opacity: 0.5;
   }
   100% {
     -webkit-transform: scale(0.3) rotate(0deg);
     transform: scale(0.3) rotate(0deg);
-    opacity: 0;
+    opacity: 0.5;
   }
 }
 
