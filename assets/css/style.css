@@ -3039,8 +3039,8 @@ p {
 
 .shine {
   position: absolute;
-  top: -30%;
-  left: -8%;
+  top: -44%;
+  left: -3%;
   pointer-events: none;
 }
 
@@ -3074,5 +3074,9 @@ p {
 }
 
 /* End Shine*/
+
+.footer-logo a img {
+  max-width: 100px;
+}
 
 /*# sourceMappingURL=style.css.map */
