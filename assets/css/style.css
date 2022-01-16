@@ -2843,17 +2843,8 @@ p {
 .form-input .input-items {
   position: relative;
 }
-.form-input .input-items select {
-  width: 100%;
-  height: 44px;
-  border: 2px solid #a4a4a4;
-  padding-left: 44px;
-  padding-right: 12px;
-  position: relative;
-  font-size: 16px;
-  color: #6c6c6c;
-}
 .form-input .input-items input,
+.form-input .input-items select,
 .form-input .input-items textarea {
   width: 100%;
   height: 44px;
@@ -2865,25 +2856,30 @@ p {
   color: #6c6c6c;
 }
 .form-input .input-items input:focus,
+.form-input .input-items select:focus,
 .form-input .input-items textarea:focus {
   border-color: #007074;
 }
 .form-input .input-items input::placeholder,
+.form-input .input-items select::placeholder,
 .form-input .input-items textarea::placeholder {
   color: #6c6c6c;
   opacity: 1;
 }
 .form-input .input-items input::-moz-placeholder,
+.form-input .input-items select::-moz-placeholder,
 .form-input .input-items textarea::-moz-placeholder {
   color: #6c6c6c;
   opacity: 1;
 }
 .form-input .input-items input::-moz-placeholder,
+.form-input .input-items select::-moz-placeholder,
 .form-input .input-items textarea::-moz-placeholder {
   color: #6c6c6c;
   opacity: 1;
 }
 .form-input .input-items input::-webkit-input-placeholder,
+.form-input .input-items select::-webkit-input-placeholder,
 .form-input .input-items textarea::-webkit-input-placeholder {
   color: #6c6c6c;
   opacity: 1;
