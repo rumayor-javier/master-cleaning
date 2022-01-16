@@ -2843,6 +2843,16 @@ p {
 .form-input .input-items {
   position: relative;
 }
+.form-input .input-items select {
+  width: 100%;
+  height: 44px;
+  border: 2px solid #a4a4a4;
+  padding-left: 44px;
+  padding-right: 12px;
+  position: relative;
+  font-size: 16px;
+  color: #6c6c6c;
+}
 .form-input .input-items input,
 .form-input .input-items textarea {
   width: 100%;
