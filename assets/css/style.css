@@ -3046,7 +3046,8 @@ p {
 
 @media (max-width: 750px) {
   .shine {
-    left: -14%;
+    left: -8%;
+    top: -70%;
   }
 }
 
