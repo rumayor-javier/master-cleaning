@@ -3004,7 +3004,7 @@ p {
   font-size: 20px;
   color: #121212;
   position: fixed;
-  right: 20px;
+  left: 20px;
   bottom: 20px;
   width: 45px;
   height: 45px;
@@ -3109,8 +3109,8 @@ p {
   position: fixed;
   width: 60px;
   height: 60px;
-  bottom: 40px;
-  left: 40px;
+  bottom: 20px;
+  right: 20px;
   background-color: #007074;
   color: #fff;
   border-radius: 50px;
