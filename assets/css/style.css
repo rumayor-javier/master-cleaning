@@ -2548,6 +2548,12 @@ p {
   -moz-box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
 }
+.testimonial-image {
+  min-height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .single-testimonial .testimonial-image img {
   width: 90px;
   border-radius: 50%;
@@ -2562,6 +2568,7 @@ p {
   color: #121212;
   border-bottom: 1px solid #cbced1;
   padding-bottom: 24px;
+  min-height: 270px;
 }
 .single-testimonial .testimonial-content .author-name {
   font-size: 18px;
@@ -3097,3 +3104,28 @@ p {
   border: 1px solid #fff;
 }
 /*# sourceMappingURL=style.css.map */
+
+.float-whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  left: 40px;
+  background-color: #007074;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  transition: 0.3s ease all;
+}
+
+.float-whatsapp:hover {
+  background-color: #43cae9;
+  color: #fff;
+}
+
+.my-float {
+  margin-top: 16px;
+}
