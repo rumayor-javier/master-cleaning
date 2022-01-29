@@ -2831,6 +2831,10 @@ p {
   color: #121212;
 }
 
+.contact-info a {
+  color: #6c6c6c;
+}
+
 .contact-map .gmap_canvas iframe {
   width: 100%;
   height: 400px;
