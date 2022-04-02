@@ -3050,15 +3050,15 @@ p {
 
 .shine {
   position: absolute;
-  top: -44%;
+  top: -15%;
   left: -3%;
   pointer-events: none;
 }
 
 @media (max-width: 750px) {
   .shine {
-    left: -8%;
-    top: -70%;
+    left: -10%;
+    top: -18%;
   }
 }
 
