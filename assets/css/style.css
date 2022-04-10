@@ -3133,3 +3133,8 @@ p {
 .my-float {
   margin-top: 16px;
 }
+
+.fw-bold {
+  font-weight: bold;
+  color: #fff;
+}
